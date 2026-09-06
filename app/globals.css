@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f6f8fc;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.material-symbols-outlined.filled {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Soft radial wash behind the hero — echoes the form's blue gradient */
+.hero-wash {
+  background:
+    radial-gradient(900px 420px at 50% -12%, rgba(37, 99, 235, 0.14), transparent 62%),
+    linear-gradient(180deg, #eef2fb 0%, #f6f8fc 55%);
+}
