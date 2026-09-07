@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'OpenRuleta — Sorteo para eventos, de la inscripción a la rueda',
   description:
-    'Toolkit de sorteo self-hostable con Next.js y Supabase: un formulario público de inscripción (deployable) y una rueda de ganadores para quien corre el sorteo (local o con candado). Usado en vivo en Data Saturday LATAM Argentina 2026 con ~300 inscripciones en simultáneo. Portfolio preview.',
+    'Toolkit de sorteo self-hostable con Next.js y Supabase: un formulario público de inscripción (deployable) y una rueda de ganadores para quien corre el sorteo (local o con candado). Usado en vivo en Data Saturday LATAM Argentina 2026 (~300 inscripciones en simultáneo) y probado con 1000 en pruebas de carga. Portfolio preview.',
   openGraph: {
     title: 'OpenRuleta',
     description:

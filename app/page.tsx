@@ -152,13 +152,15 @@ export default function Home() {
             Data Saturday LATAM Argentina 2026
           </h2>
           <p className="mx-auto mb-10 max-w-2xl text-muted">
-            Se usó durante el evento real: los asistentes se inscribían desde el celular
-            escaneando un QR mientras la rueda sorteaba ganadores en el escenario — todo
-            contra un único proyecto de Supabase del plan gratuito.
+            Se usó durante el evento real: ~300 asistentes se inscribieron en simultáneo
+            desde el celular escaneando un QR mientras la rueda sorteaba ganadores en el
+            escenario — todo contra un único proyecto de Supabase del plan gratuito. En
+            pruebas de carga posteriores la inscripción aguantó 1000 registros en
+            simultáneo sin degradarse.
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
             {[
-              ['~300', 'inscripciones en simultáneo'],
+              ['1000', 'inscripciones en simultáneo en pruebas de carga'],
               ['1', 'proyecto Supabase (free tier)'],
               ['0', 'servicios extra que mantener'],
             ].map(([n, label]) => (

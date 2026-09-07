@@ -20,8 +20,11 @@ Repo hermano del mismo patrón (landing estática + app aparte): también hay
 - Capturas en `public/` (`form.png`, `wheel.png`, `winner.png`): la de la rueda
   se sacó con datos de ejemplo (figuras históricas), no con asistentes reales.
 - El dato del evento (Data Saturday LATAM Argentina 2026, ~300 inscripciones en
-  simultáneo) es real y va nombrado, a pedido de Loren.
+  simultáneo) es el uso real y va nombrado, a pedido de Loren. Los 1000 son una
+  prueba de carga posterior; la landing muestra los 1000 como número destacado y
+  los ~300 como contexto del evento — sin dar a entender que 300 sea un tope.
 
 ## Última revisión
 
-2026-09-06 — creación del repo.
+2026-09-07 — el número destacado pasa a 1000 (prueba de carga); los ~300 del
+evento quedan como contexto.
